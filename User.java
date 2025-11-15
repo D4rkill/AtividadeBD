@@ -6,56 +6,56 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class User {
-    // Nó 1
+    // Método 1 
     public Connection conectarBD() {
-        // Nó 2
+        // Nó 1
         Connection conn = null;
         try {
-            // Nó 3
+            // Nó 2
             Class.forName("com.mysql.Driver.Manager").newInstance();
-            // Nó 4
+            // Nó 3
             String url = "jdbc:mysql://127.0.0.1/test?user=lopes&password=123";
-            // Nó 5
+            // Nó 4
             conn = DriverManager.getConnection(url);
         } catch (Exception e) {
-            // Nó 6
+            // Nó 5
         }
-        // Nó 7
+        // Nó 6
         return conn;
     }
 
     public String nome = "";
     public boolean result = false;
-
-    // Nó 8
+    
+    // Método 2
     public boolean verificarUsuario(String login, String senha) {
-        // Nó 9
+        // Nó 1
         String sql = "";
-        // Nó 10
+        // Nó 2
         Connection conn = conectarBD();
         // Instrução SQL
-        // Nó 11
+        // Nó 3
         sql += "select nome from usuarios ";
-        // Nó 12
+        // Nó 4
         sql += "where login = " + "'" + login + "'";
-        // Nó 13
+        // Nó 5
         sql += " and senha = " + "'" + senha + "'";
         try {
-            // Nó 14
+            // Nó 6
             Statement st = conn.createStatement();
-            // Nó 15
+            // Nó 7
             ResultSet rs = st.executeQuery(sql);
-            // Nó 16
+            // Nó 8
             if (rs.next()) {
-                // Nó 17
+                // Nó 9
                 result = true;
-                // Nó 18
+                // Nó 10
                 nome = rs.getString("nome");
             }
         } catch (Exception e) {
-            // Nó 19
+            // Nó 11
         }
-        // Nó 20
+        // Nó 12
         return result;
     }
 }
