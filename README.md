@@ -12,8 +12,8 @@ Complexidade Ciclomática do Método 1:
 
 M = E - N + 2P
 
-E = 6
-N = 6
+E = 6, 
+N = 6, 
 P = 1
 
 Cálculo: M = 6 - 6 + 2 * 1
@@ -38,8 +38,8 @@ Complexidade Ciclomática do Método 1:
 
 M = E - N + 2P
 
-E = 9
-N = 8
+E = 9, 
+N = 8, 
 P = 1
 
 Cálculo: M = 9 - 8 + 2 * 1
