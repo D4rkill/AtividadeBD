@@ -23,6 +23,7 @@ Cálculo: M = 2
 A complexidade ciclomática M desse código é 2.
 
 Caminhos Possíveis: 
+
 1 - 2 - 3 - 6;
 
 1 - 4 - 5 - 6;
@@ -47,7 +48,8 @@ Cálculo: 3
 
 A complexidade ciclomática M desse código é 3.
 
-Caminhos Possíveis: 
+Caminhos Possíveis:
+
 1 - 2 - 3 - 4 - 5 - 8;
 
 1 - 2 - 3 - 8;
