@@ -1,8 +1,4 @@
-Link para Fluxogramas: 
-Link para Grafos de Fluxo:
-Link para Planilha: 
-
-Fiz 2 fluxogramas e 2 grafos de fluxo, levando em consideração que no código há a existência de 2 métodos, e após algumas pesquisas na internet identifiquei que forma mais correta de ser realizada a documentação seria separando-as ao invés de fazer um único fluxograma ou grafo de fluxo para o código inteiro.
+Feito 2 fluxogramas e 2 grafos de fluxo, levando em consideração que no código há a existência de 2 métodos, e após algumas pesquisas na internet identifiquei que forma mais correta de ser realizada a documentação seria separando-as ao invés de fazer um único fluxograma ou grafo de fluxo para o código inteiro.
 
 Método 1 = public Connection conectarBD()
 
